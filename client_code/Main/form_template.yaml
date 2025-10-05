@@ -11,15 +11,15 @@ components:
       type: Label
     - layout_properties: {grid_position: 'NXRKBI,EALHEQ'}
       name: label_24
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '#000000', icon: '', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: address., tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '#000000', icon: '', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: Address, tooltip: '', underline: false, visible: true}
       type: Label
     - layout_properties: {grid_position: 'NXRKBI,DOEFTG'}
       name: label_25
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '#000000', icon: '', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: company., tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '#000000', icon: '', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: Company, tooltip: '', underline: false, visible: true}
       type: Label
     - layout_properties: {grid_position: 'NXRKBI,RPGYVO'}
       name: label_26
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '#000000', icon: '', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: website info., tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '#000000', icon: '', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: Website info, tooltip: '', underline: false, visible: true}
       type: Label
     - event_bindings: {click: link_1_click}
       layout_properties: {grid_position: 'TYEMCK,SVDTGG'}
@@ -27,31 +27,45 @@ components:
       properties: {text: Try Now}
       type: Link
     - layout_properties: {grid_position: 'TYEMCK,GUOKSB'}
-      name: label_27
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: none, spacing_below: none, text: zikreaati1998@gmail.com, tooltip: '', underline: false, visible: true}
+      name: link_2
+      properties: {font_size: 17, text: zikreaarti1998@gmail.com, url: 'mailto:zikreaarti1998@gmail.com'}
+      type: Link
+    - layout_properties: {grid_position: 'TYEMCK,GUOKSB QVIYTG,LRHMCA'}
+      name: label_1
+      properties: {visible: false}
       type: Label
+    - components: []
+      layout_properties: {grid_position: 'TYEMCK,GUOKSB QVIYTG,RZGRVA'}
+      name: link_3
+      properties: {icon: 'fa:linkedin-square', icon_align: right, role: headline, text: '', url: 'https://www.linkedin.com/in/aartizikre/'}
+      type: Link
+    - layout_properties: {grid_position: 'TYEMCK,GUOKSB QVIYTG,CKOXLO'}
+      name: link_4
+      properties: {icon: 'fa:phone-square', icon_align: right, role: headline, url: 'tel: 2262605196'}
+      type: Link
     - event_bindings: {click: bottom_about_link_click}
       layout_properties: {grid_position: 'TYEMCK,XLGEZQ BRJWPI,GBCQFK'}
       name: bottom_about_link
-      properties: {align: center, background: '', bold: false, border: '', col_spacing: medium, col_widths: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: none, spacing_below: none, text: About Me., tooltip: '', underline: false, url: '', visible: true, wrap_on: mobile}
+      properties: {align: center, background: '', bold: false, border: '', col_spacing: medium, col_widths: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: none, spacing_below: none, text: About Me, tooltip: '', underline: false, url: '', visible: true, wrap_on: mobile}
       type: Link
     - event_bindings: {click: bottom_contact_link_click}
       layout_properties: {grid_position: 'TYEMCK,XLGEZQ UBBGPK,RPFOIK'}
       name: bottom_contact_link
-      properties: {align: center, background: '', bold: false, border: '', col_spacing: medium, col_widths: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: none, spacing_below: none, text: Contact Us., tooltip: '', underline: false, url: '', visible: true, wrap_on: mobile}
+      properties: {align: center, background: '', bold: false, border: '', col_spacing: medium, col_widths: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: none, spacing_below: none, text: Contact Us, tooltip: '', underline: false, url: '', visible: true, wrap_on: mobile}
       type: Link
     - event_bindings: {click: faq_link_click}
       layout_properties: {grid_position: 'TYEMCK,GJVQXX YLNPJZ,WREEOX'}
       name: faq_link
-      properties: {align: center, background: '', bold: false, border: '', col_spacing: medium, col_widths: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: none, spacing_below: none, text: FAQs., tooltip: '', underline: false, url: '', visible: true, wrap_on: mobile}
+      properties: {align: center, background: '', bold: false, border: '', col_spacing: medium, col_widths: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: none, spacing_below: none, text: FAQs, tooltip: '', underline: false, url: '', visible: true, wrap_on: mobile}
       type: Link
-    - layout_properties: {grid_position: 'TYEMCK,GJVQXX ZUZGTR,MFFCPV'}
+    - event_bindings: {click: link_7_click}
+      layout_properties: {grid_position: 'TYEMCK,GJVQXX ZUZGTR,MFFCPV'}
       name: link_7
-      properties: {align: center, background: '', bold: false, border: '', col_spacing: medium, col_widths: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: none, spacing_below: none, text: privacy policy., tooltip: '', underline: false, url: '', visible: true, wrap_on: mobile}
+      properties: {align: center, background: '', bold: false, border: '', col_spacing: medium, col_widths: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: none, spacing_below: none, text: privacy policy, tooltip: '', underline: false, url: '', visible: true, wrap_on: mobile}
       type: Link
     layout_properties: {full_width_row: true, grid_position: 'JQXBUF,MXBGRM'}
     name: card_6
-    properties: {background: 'theme:White', border: '', col_spacing: medium, col_widths: '{"GUOKSB":15,"XLGEZQ":15,"GJVQXX":15}', foreground: '', role: card, spacing_above: none, spacing_below: none, tooltip: '', visible: true, wrap_on: mobile}
+    properties: {background: 'theme:White', border: '', col_spacing: medium, col_widths: '{"GUOKSB":13,"XLGEZQ":13,"GJVQXX":14,"SVDTGG":10}', foreground: '', role: card, spacing_above: none, spacing_below: none, tooltip: '', visible: true, wrap_on: mobile}
     type: ColumnPanel
   layout_properties: {slot: default}
   name: column_panel
