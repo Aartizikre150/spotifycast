@@ -5,7 +5,7 @@ color_scheme:
   - {color: '#ECAF95', name: Secondary 500}
   - {color: '#ECAF95', name: Secondary 700}
   - {color: '#FFFFFF', name: White}
-  - {color: '#FAFAFA', name: Gray 50}
+  - {color: '#111a0e', name: Gray 50}
   - {color: '#F5F5F5', name: Gray 100}
   - {color: '#EEEEEE', name: Gray 200}
   - {color: '#E0E0E0', name: Gray 300}

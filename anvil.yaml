@@ -50,8 +50,8 @@ db_schema:
     server: full
     title: Pricing
 dependencies: []
-metadata: {logo_img: ''}
-name: Clone of Simple Website Template
+metadata: {logo_img: '', title: Streaming meets prediction.}
+name: SpotyCast
 native_deps: {head_html: '<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" rel="preload" as="font" crossorigin="anonymous">'}
 package_name: Simple_Website_Template
 renamed: true
