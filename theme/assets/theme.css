@@ -917,3 +917,106 @@ textarea.anvil-component,
 .anvil-label a:hover {
   color: var(--primary-500) !important;
 }
+/* ===== GLOBAL DARK BACKGROUND + WHITE TEXT ===== */
+:root {
+  --primary-500: #111a0e;
+  --primary-700: #0b0b09;
+  --site-background: rgba(14, 28, 13, 0.68);
+  --text-color: #ffffff;
+}
+
+/* Full-page background */
+body {
+  background-color: var(--site-background) !important;
+  color: var(--text-color) !important;
+}
+
+/* Default text (labels, paragraphs, etc.) */
+.anvil-label,
+.anvil-role-text,
+.anvil-role-subheading,
+.anvil-role-headline,
+p, span, h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color) !important;
+}
+
+/* App bar stays dark and text white */
+.app-bar {
+  background-color: var(--primary-500) !important;
+  color: var(--text-color) !important;
+}
+.app-bar a,
+.app-bar .anvil-component,
+.app-bar .link-text,
+.app-bar .anvil-component-icon {
+  color: var(--text-color) !important;
+}
+.app-bar a:hover,
+.app-bar a:active {
+  background-color: var(--primary-700) !important;
+  color: var(--text-color) !important;
+}
+
+/* Cards inherit dark background */
+.anvil-role-card {
+  background-color: rgba(14, 28, 13, 0.75) !important;
+  color: var(--text-color) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Buttons */
+.anvil-role-primary-color > .btn,
+.btn-primary,
+.anvil-role-primary-color.file-loader>label {
+  background-color: var(--primary-500) !important;
+  color: var(--text-color) !important;
+}
+.anvil-role-primary-color > .btn:hover,
+.anvil-role-primary-color > .btn:focus,
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--primary-700) !important;
+  color: var(--text-color) !important;
+}
+
+/* Input fields and dropdowns */
+input.anvil-component,
+textarea.anvil-component,
+.anvil-component select,
+.anvil-datepicker input {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: var(--text-color) !important;
+  border: 2px solid rgba(255, 255, 255, 0.2) !important;
+}
+.anvil-dropdown form:before {
+  color: var(--text-color) !important;
+}
+
+/* Sidebar + navigation text */
+.left-nav,
+.left-nav a,
+.left-nav .anvil-label {
+  background-color: var(--site-background) !important;
+  color: var(--text-color) !important;
+}
+.left-nav a:hover {
+  background-color: var(--primary-700) !important;
+  color: var(--text-color) !important;
+}
+
+/* Links inside content */
+.content a,
+.anvil-label a {
+  color: var(--text-color) !important;
+}
+.content a:hover,
+.anvil-label a:hover {
+  color: #d8ffd8 !important; /* softer white-green hover */
+}
+
+/* Ensure modal dialogs + notifications use white text */
+.modal-content,
+body>div[data-notify="container"] {
+  background-color: var(--site-background) !important;
+  color: var(--text-color) !important;
+}

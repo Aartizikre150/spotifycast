@@ -68,6 +68,6 @@ components:
   properties: {height: 60}
   type: Spacer
 container:
-  properties: {background: 'theme:Neutral', border: '', col_spacing: medium, col_widths: '{}', foreground: '', role: null, spacing_above: none, spacing_below: none, tooltip: '', visible: true, wrap_on: mobile}
+  properties: {background: '', border: '', col_spacing: medium, col_widths: '{}', foreground: '', role: null, spacing_above: none, spacing_below: none, tooltip: '', visible: true, wrap_on: mobile}
   type: ColumnPanel
 is_package: true
