@@ -12,7 +12,7 @@ components:
     name: label_3
     properties: {align: center, background: '', bold: false, border: '', font: '', font_size: 18, foreground: 'theme:White', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'teachme is an online tutoring service focused on helping your child succeed. our tutors are experienced and passionate about teaching a variety of subjects including foreign languages, mathematics and coding. ', tooltip: '', underline: false, visible: true}
     type: Label
-  layout_properties: {full_width_row: true, grid_position: 'CRKCZC,KYISDW'}
+  layout_properties: {full_width_row: true, grid_position: 'CRKCZC,KYISDW', row_background: ''}
   name: card_1
   properties: {background: '', border: '', col_spacing: medium, col_widths: '{"ZTLCPG":45}', foreground: '', role: home-header, spacing_above: none, spacing_below: none, tooltip: '', visible: true, wrap_on: mobile}
   type: ColumnPanel
