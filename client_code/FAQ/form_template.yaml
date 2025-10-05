@@ -15,31 +15,31 @@ components:
 - components:
   - layout_properties: {grid_position: 'DZOXHP,QLUCDU'}
     name: label_3
-    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: payment., tooltip: '', underline: false, visible: true}
+    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: 🎧 About the App, tooltip: '', underline: false, visible: true}
     type: Label
   - layout_properties: {grid_position: 'LLYCUD,ISGRLI'}
     name: label_4
-    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '', icon: '', icon_align: left, italic: true, role: null, spacing_above: small, spacing_below: small, text: '1. lorem ipsum dolor sit amet, consectetur adipiscing elit?', tooltip: '', underline: false, visible: true}
+    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '', icon: '', icon_align: left, italic: true, role: null, spacing_above: small, spacing_below: small, text: '1. What does SpotiCast do?', tooltip: '', underline: false, visible: true}
     type: Label
   - layout_properties: {grid_position: 'SYYAYU,VGVBCX'}
     name: label_7
-    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'aenean porttitor consectetur quam, at placerat ipsum luctus ultricies. proin eu velit blandit, ultricies risus quis, tristique metus. in bibendum neque at accumsan cursus. donec commodo, ante non aliquam porttitor, turpis risus imperdiet nisl, ac sagittis leo mi eu est. suspendisse eu viverra justo. ', tooltip: '', underline: false, visible: true}
+    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'SpotiCast predicts the potential Spotify stream count of a song based on its musical features such as tempo, energy, danceability, and mood. It helps artists and producers understand how their tracks might perform before release.', tooltip: '', underline: false, visible: true}
     type: Label
   - layout_properties: {grid_position: 'KXZKJG,IVSNIO'}
     name: label_5
-    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '', icon: '', icon_align: left, italic: true, role: null, spacing_above: small, spacing_below: small, text: '2. mauris convallis, dolor a bibendum finibus, sem nulla iaculis nisl, et sollicitudin odio est in ante?', tooltip: '', underline: false, visible: true}
+    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '', icon: '', icon_align: left, italic: true, role: null, spacing_above: small, spacing_below: small, text: '2. Do I need a Spotify account to use SpotiCast?', tooltip: '', underline: false, visible: true}
     type: Label
   - layout_properties: {grid_position: 'BLSWYG,NQDBIV'}
     name: label_8
-    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'sed et nisl nec diam sollicitudin fermentum et quis urna. sed viverra nibh in velit sagittis, et efficitur augue iaculis. donec aliquam felis vitae ex varius tempus. morbi ullamcorper condimentum magna a ultrices. vivamus vitae arcu ornare, dictum est mollis, condimentum ex. ', tooltip: '', underline: false, visible: true}
+    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'No, you can explore predictions without linking your Spotify account. However, connecting your account allows for personalized insights and better song comparisons.', tooltip: '', underline: false, visible: true}
     type: Label
   - layout_properties: {grid_position: 'SREEIL,CKGKJY'}
     name: label_6
-    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '', icon: '', icon_align: left, italic: true, role: null, spacing_above: small, spacing_below: small, text: '3. in orci elementum arcu sollicitudin euismod in non purus. aenean sed dictum es?', tooltip: '', underline: false, visible: true}
+    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '', icon: '', icon_align: left, italic: true, role: null, spacing_above: small, spacing_below: small, text: '3. Can I upload my audio file instead of entering values?', tooltip: '', underline: false, visible: true}
     type: Label
   - layout_properties: {grid_position: 'YUGLFN,XXDTCC'}
     name: label_9
-    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'duis laoreet, turpis gravida vestibulum maximus, neque orci faucibus lacus, in porta dolor ex commodo turpis. aenean consequat euismod iaculis. donec sagittis massa leo, a vehicula tortor tincidunt quis. sed iaculis at nisl sed tempor.', tooltip: '', underline: false, visible: true}
+    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'At this time, SpotiCast supports only manual data entry. Automatic audio feature extraction will be available in a future update.', tooltip: '', underline: false, visible: true}
     type: Label
   - layout_properties: {grid_position: 'ZCWTXB,CEQWBC'}
     name: label_10
@@ -47,23 +47,19 @@ components:
     type: Label
   - layout_properties: {grid_position: 'UIWISP,JZKXJV'}
     name: label_11
-    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '', icon: '', icon_align: left, italic: true, role: null, spacing_above: small, spacing_below: small, text: '1. lorem ipsum dolor sit amet, consectetur adipiscing elit?', tooltip: '', underline: false, visible: true}
+    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '', icon: '', icon_align: left, italic: true, role: null, spacing_above: small, spacing_below: small, text: '1. Is SpotiCast free to use?', tooltip: '', underline: false, visible: true}
     type: Label
   - layout_properties: {grid_position: 'XBRARH,ZGGGMY'}
     name: label_12
-    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'duis vel ipsum eget massa elementum sagittis. Vestibulum vitae erat vel nisi sodales congue eget at felis. aliquam mattis dapibus est, vitae feugiat nunc tincidunt ut.', tooltip: '', underline: false, visible: true}
-    type: Label
-  - layout_properties: {grid_position: 'IEWOBQ,HYOVQD'}
-    name: label_14
-    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'pellentesque ultrices tortor vitae ipsum congue, sed fringilla dolor suscipit. pellentesque euismod interdum ex, vitae sagittis quam dictum ut. proin tincidunt mauris ac velit sollicitudin, quis efficitur nulla laoreet.', tooltip: '', underline: false, visible: true}
+    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'Yes, basic predictions are completely free. Premium features, such as detailed analytics or artist comparison tools, may be introduced later.', tooltip: '', underline: false, visible: true}
     type: Label
   - layout_properties: {grid_position: 'WAASZQ,BJNQNB'}
     name: label_13
-    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '', icon: '', icon_align: left, italic: true, role: null, spacing_above: small, spacing_below: small, text: '2. mauris convallis, dolor a bibendum finibus, sem nulla iaculis nisl, et sollicitudin odio est in ante?', tooltip: '', underline: false, visible: true}
+    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '', icon: '', icon_align: left, italic: true, role: null, spacing_above: small, spacing_below: small, text: '2. Who is SpotiCast for?', tooltip: '', underline: false, visible: true}
     type: Label
   - layout_properties: {grid_position: 'SHCHZM,MDHLQX'}
     name: label_15
-    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'aenean porttitor consectetur quam, at placerat ipsum luctus ultricies. proin eu velit blandit, ultricies risus quis, tristique metus. in bibendum neque at accumsan cursus. donec commodo, ante non aliquam porttitor, turpis risus imperdiet nisl, ac sagittis leo mi eu est.', tooltip: '', underline: false, visible: true}
+    properties: {align: left, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'Independent artists, producers, marketers, and anyone curious about music analytics can use SpotiCast to explore their track’s potential.', tooltip: '', underline: false, visible: true}
     type: Label
   layout_properties: {full_width_row: true, grid_position: 'ZBENMH,RLZWAO'}
   name: card_1
