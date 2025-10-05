@@ -51,6 +51,11 @@ class Main(MainTemplate):
     self.content_panel.clear()
     self.content_panel.add_component(FAQ(), full_width_row=True)
 
+  def link_1_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    self.content_panel.clear()
+    self.content_panel.add_component(Pricing(), full_width_row=True)
+
 
 
 
