@@ -86,12 +86,12 @@ body {
   font-family: Montserrat, Roboto, Noto, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.4286;
-  background-color: #111a0e;
+  background-color: #fafafa;
 }
 
 @media print {
   body {
-    background-color: #111a0e;
+    background-color: white;
   }
 }
 
@@ -984,7 +984,7 @@ input.anvil-component,
 textarea.anvil-component,
 .anvil-component select,
 .anvil-datepicker input {
-  background-color: rgba(255, 255, 255, 0.1) !important;
+  background-color: #111a0e !important;
   color: var(--text-color) !important;
   border: 2px solid rgba(255, 255, 255, 0.2) !important;
 }
