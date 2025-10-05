@@ -812,3 +812,108 @@ https://stackoverflow.com/questions/30533055/calculating-shadow-values-for-all-m
   border-radius: 10px !important;
 }
 
+/* ===== PRIMARY COLOR OVERRIDES (Spotify-inspired) ===== */
+:root {
+  /* Your new primary */
+  --primary-500: #111a0e;
+  /* Slightly darker for hover/active */
+  --primary-700: #0b0b09;
+}
+
+/* Links (global) */
+a, a:focus { color: var(--primary-700) !important; }
+a:hover, a:active { color: var(--primary-500) !important; }
+
+/* Subheading text color */
+.anvil-role-subheading { color: var(--primary-500) !important; }
+
+/* App bar background */
+.app-bar { background-color: var(--primary-500) !important; }
+
+/* Buttons (primary role) */
+.anvil-role-primary-color > .btn,
+.btn-primary,
+.anvil-role-primary-color.file-loader>label {
+  background-color: var(--primary-500) !important;
+  color: #ffffff !important;
+}
+.anvil-role-primary-color > .btn:hover,
+.anvil-role-primary-color > .btn:active,
+.anvil-role-primary-color > .btn:focus,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: var(--primary-700) !important;
+  color: #ffffff !important;
+}
+
+/* Neutral buttons that used Primary for text */
+.btn, .btn-default, .file-loader>label {
+  color: var(--primary-500) !important;
+}
+.btn:hover, .btn:focus, .file-loader>label:hover {
+  color: var(--primary-500) !important;
+}
+
+/* Inputs & dropdown arrow */
+input.anvil-component,
+textarea.anvil-component,
+.anvil-component select,
+.anvil-datepicker input {
+  border: 2px solid var(--primary-500) !important;
+}
+.anvil-dropdown form:before {
+  color: var(--primary-500) !important;
+}
+
+/* Date range picker */
+.daterangepicker td.active { background-color: var(--primary-500) !important; }
+.daterangepicker td.active:hover { background-color: var(--primary-700) !important; }
+.daterangepicker .btn-success { color: var(--primary-500) !important; }
+
+/* Header card gradients (home/start) */
+.anvil-role-home-header {
+  background-image:
+    linear-gradient(180deg, var(--primary-500) 0%, #111a0e00 150%),
+    url(_/theme/home-img.jpg) !important;
+}
+.anvil-role-start-header {
+  background-image:
+    linear-gradient(180deg, var(--primary-500) 0%, #111a0e00 150%),
+    url(_/theme/start-img.jpg) !important;
+}
+
+/* Borders using Primary */
+.anvil-role-top-border { border-top: 2px solid var(--primary-500) !important; }
+.anvil-role-rounded-border {
+  border: 2px solid var(--primary-500) !important;
+  border-radius: 10px !important;
+}
+
+/* ===== KEEP TOP MENU TEXT WHITE ===== */
+.app-bar,
+.app-bar a,
+.app-bar .anvil-component,
+.app-bar .link-text,
+.app-bar .anvil-component-icon { 
+  color: #ffffff !important;
+}
+
+/* App bar hover: white text, darker background */
+.app-bar a:hover,
+.app-bar a:active {
+  background-color: var(--primary-700) !important;
+  color: #ffffff !important;
+}
+
+/* Colored links only in content/side areas */
+.content a,
+.left-nav a,
+.anvil-label a {
+  color: var(--primary-700) !important;
+}
+.content a:hover,
+.left-nav a:hover,
+.anvil-label a:hover {
+  color: var(--primary-500) !important;
+}
