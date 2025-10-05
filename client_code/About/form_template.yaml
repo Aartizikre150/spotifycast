@@ -48,15 +48,29 @@ components:
   - data_bindings: []
     layout_properties: {grid_position: 'JEXLQY,FBJWGK'}
     name: image_4
-    properties: {background: '', border: '', border_radius: 100px, display_mode: fill_width, foreground: '', height: '20', horizontal_align: right, role: null, source: _/theme/person 2.jpg, spacing_above: small, spacing_below: small, tooltip: '', vertical_align: top, visible: true}
+    properties: {background: '', border: '', border_radius: 50000px, display_mode: fill_width, foreground: '', height: 385.33331298828125, horizontal_align: left, role: null, source: _/theme/person 2.jpg, spacing_above: small, spacing_below: small, tooltip: '', vertical_align: top, visible: false}
+    type: Image
+  - data_bindings: []
+    layout_properties: {grid_position: 'JEXLQY,VAXEXA'}
+    name: image_4_copy
+    properties: {background: '', border: '', border_radius: 500px, display_mode: fill_width, foreground: '', height: 230.5555419921875, horizontal_align: center, role: null, source: _/theme/Untitled design (5)-modified.png, spacing_above: small, spacing_below: small, tooltip: '', vertical_align: center, visible: true}
+    type: Image
+  - data_bindings: []
+    layout_properties: {grid_position: 'JEXLQY,LITNNG'}
+    name: image_4_copy_copy
+    properties: {background: '', border: '', border_radius: 50000px, display_mode: fill_width, foreground: '', height: 210.14813232421875, horizontal_align: left, role: null, source: _/theme/person 2.jpg, spacing_above: small, spacing_below: small, tooltip: '', vertical_align: top, visible: false}
     type: Image
   - layout_properties: {grid_position: 'SLMVPI,YJVOPR'}
     name: label_4
-    properties: {align: center, background: '', bold: true, border: '', font: '', font_size: 16, foreground: 'theme:Primary 500', icon: '', icon_align: left, italic: true, role: null, spacing_above: small, spacing_below: small, text: 'Shirley Bennett, COO', tooltip: '', underline: false, visible: true}
+    properties: {align: center, background: '', bold: true, border: '', font: '', font_size: 16, foreground: 'theme:Primary 500', icon: '', icon_align: left, italic: true, role: null, spacing_above: small, spacing_below: small, text: Aarti Anil Zikre, tooltip: '', underline: false, visible: true}
+    type: Label
+  - layout_properties: {grid_position: 'GXCMHP,ZQXWHK'}
+    name: label_5
+    properties: {align: center, font_size: 14, italic: true, text: Data Analyst | Storyteller through Data}
     type: Label
   - layout_properties: {grid_position: 'RFTQDG,QIMWKA'}
     name: label_9
-    properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'mauris volutpat sem ut augue scelerisque convallis. aenean tempor tristique erat sed iaculis. aliquam porta malesuada augue, vel convallis quam elementum a. ', tooltip: '', underline: false, visible: true}
+    properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'I’m passionate about uncovering insights that connect data with real-world impact. My work focuses on analyzing, visualizing, and predicting trends that help transform information into meaningful stories. I enjoy exploring data-driven approaches to problem-solving and believe that every dataset holds a story waiting to be told.', tooltip: '', underline: false, visible: true}
     type: Label
   layout_properties: {full_width_row: true, grid_position: 'RXLMNX,RKIMVN'}
   name: card_2
