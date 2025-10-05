@@ -20,7 +20,7 @@ components:
   - components:
     - layout_properties: {grid_position: 'JIBZDI,KZABZG'}
       name: label_4
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: what we offer, tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: What we offer, tooltip: '', underline: false, visible: true}
       type: Label
     - layout_properties: {grid_position: 'VIMJNJ,PFRBHY'}
       name: image_1
@@ -28,7 +28,7 @@ components:
       type: Image
     - layout_properties: {grid_position: 'VIMJNJ,VAIYRP GTIVNR,BATZXT'}
       name: label_5
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: text, spacing_above: small, spacing_below: small, text: stream count prediction., tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: text, spacing_above: small, spacing_below: small, text: Stream count prediction., tooltip: '', underline: false, visible: true}
       type: Label
     - layout_properties: {grid_position: 'VIMJNJ,VAIYRP SYGHGU,OJNEJF'}
       name: label_6
@@ -36,7 +36,7 @@ components:
       type: Label
     - layout_properties: {grid_position: 'VIMJNJ,VAIYRP LDMTOR,GTZABN'}
       name: label_7
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: text, spacing_above: small, spacing_below: small, text: feature-based analysis., tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: text, spacing_above: small, spacing_below: small, text: Feature-based analysis., tooltip: '', underline: false, visible: true}
       type: Label
     - layout_properties: {grid_position: 'VIMJNJ,VAIYRP KVCYIN,DPSVKF'}
       name: label_8
@@ -57,27 +57,27 @@ components:
   - components:
     - layout_properties: {grid_position: 'BKJBVW,HYABEJ'}
       name: label_9
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: 'fa:music', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: our Music, tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: 'fa:music', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: Our Music, tooltip: '', underline: false, visible: true}
       type: Label
     - layout_properties: {grid_position: 'AAANPP,FBZEDZ YPIULJ,ZVZFRW'}
       name: label_10
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: text, spacing_above: small, spacing_below: small, text: Understanding sound through data, tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: text, spacing_above: small, spacing_below: small, text: We explore sound through data, tooltip: '', underline: false, visible: true}
       type: Label
     - layout_properties: {grid_position: 'AAANPP,FBZEDZ STPNDD,VWXCSD'}
       name: label_11
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'Music carries emotion, rhythm, and energy. Our model studies these attributes to reveal how audio features such as tempo, loudness, and valence can influence a track’s potential reach on streaming platforms.', tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'Our project analyzes key musical attributes such as tempo, energy, valence, and loudness to understand how they relate to a song’s streaming potential. Each data point represents an artistic element transformed into measurable insight.', tooltip: '', underline: false, visible: true}
       type: Label
     - layout_properties: {grid_position: 'AAANPP,FBZEDZ SFIILE,FLXFLV'}
       name: label_10_copy
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: text, spacing_above: small, spacing_below: small, text: Where creativity meets prediction, tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: text, spacing_above: small, spacing_below: small, text: Music meets machine learning., tooltip: '', underline: false, visible: true}
       type: Label
     - layout_properties: {grid_position: 'AAANPP,FBZEDZ ELEPNU,CCYBMI'}
       name: label_12
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'By combining data analysis with machine learning, we estimate possible stream counts for tracks based on measurable sound qualities, offering a new way to connect artistic intuition with analytical insight.', tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: 'By applying predictive modeling, we estimate possible stream counts before release. This fusion of creativity and analytics demonstrates how data can enhance decision-making in the modern music industry.', tooltip: '', underline: false, visible: true}
       type: Label
     - layout_properties: {grid_position: 'AAANPP,YWSANX'}
       name: image_2
-      properties: {background: '', border: '', display_mode: zoom_to_fill, foreground: '', height: 296, horizontal_align: center, role: null, source: _/theme/image1.png, spacing_above: small, spacing_below: small, tooltip: '', vertical_align: center, visible: true}
+      properties: {background: '', border: '', display_mode: zoom_to_fill, foreground: '', height: 296, horizontal_align: center, role: null, source: _/theme/GTA_AlbumAll-1024x576.gif, spacing_above: small, spacing_below: small, tooltip: '', vertical_align: center, visible: true}
       type: Image
     layout_properties: {full_width_row: true, grid_position: 'QGCDIF,QZTLQF', row_background: ''}
     name: card_3
@@ -86,7 +86,7 @@ components:
   - components:
     - layout_properties: {grid_position: 'WLHPFA,KIEMDQ'}
       name: label_15
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: what our listener have to say., tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: subheading, spacing_above: small, spacing_below: small, text: What our listener have to say., tooltip: '', underline: false, visible: true}
       type: Label
     - data_bindings: []
       layout_properties: {grid_position: 'JNOSPQ,IHXTJP'}
@@ -107,7 +107,7 @@ components:
       type: Label
     - layout_properties: {grid_position: 'KMHLNU,KEHJOF MTRUJV,DNCLDR'}
       name: label_19
-      properties: {align: right, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: true, role: null, spacing_above: none, spacing_below: small, text: '“"Analyzing track features helped me understand how energy, tempo, and loudness affect listener engagement. It changed how I mix and structure my songs.”', tooltip: '', underline: false, visible: true}
+      properties: {align: right, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: true, role: null, spacing_above: none, spacing_below: small, text: '"Analyzing track features helped me understand how energy, tempo, and loudness affect listener engagement. It changed how I mix and structure my songs."', tooltip: '', underline: false, visible: true}
       type: Label
     - data_bindings: []
       layout_properties: {grid_position: 'KMHLNU,EYJOUZ'}
@@ -125,7 +125,7 @@ components:
       type: Label
     - layout_properties: {grid_position: 'MKEYKR,LBFRDO'}
       name: label_21
-      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: text, spacing_above: small, spacing_below: small, text: predicting the rhythm of success, tooltip: '', underline: false, visible: true}
+      properties: {align: center, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: true, role: text, spacing_above: small, spacing_below: small, text: Predicting the rhythm of success, tooltip: '', underline: false, visible: true}
       type: Label
     - layout_properties: {grid_position: 'ZHJVHE,FHCXMA'}
       name: label_22
@@ -135,55 +135,13 @@ components:
       name: spacer_3
       properties: {height: 32}
       type: Spacer
-    - components:
-      - components:
-        - layout_properties: {column: JJJXPT}
-          name: label_1
-          properties: {align: center, background: '', bold: true, border: '', font: '', font_size: null, foreground: 'theme:Primary 500', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: none, text: 30-minute session, tooltip: '', underline: false, visible: true}
-          type: Label
-        - layout_properties: {column: OGOGUA}
-          name: label_23
-          properties: {align: center, background: '', bold: true, border: '', font: '', font_size: null, foreground: 'theme:Primary 500', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: none, text: 60-minute session, tooltip: '', underline: false, visible: true}
-          type: Label
-        - layout_properties: {column: WRSVQH}
-          name: label_24
-          properties: {align: center, background: '', bold: true, border: '', font: '', font_size: null, foreground: 'theme:Primary 500', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: none, text: Level, tooltip: '', underline: false, visible: true}
-          type: Label
-        layout_properties: {pinned: true}
-        name: data_row_panel_1
-        properties: {align: center, auto_display_data: true, background: '', bold: false, border: '', font: '', font_size: null, foreground: '', italic: false, item: null, role: null, spacing_above: none, spacing_below: none, tooltip: '', underline: false, visible: true}
-        type: DataRowPanel
-      - layout_properties: {}
-        name: image_5
-        properties: {display_mode: zoom_to_fill, height: '300', source: _/theme/20251005_0048_New%20Video_simple_compose_01k6sb6fnyeq6v7w5e8gczjj3n.gif}
-        type: Image
-      data_bindings: []
-      layout_properties: {grid_position: 'IASELP,UZJVCC'}
-      name: data_grid_1
-      properties:
-        auto_header: false
-        background: ''
-        border: ''
-        columns:
-        - {data_key: level, expand: false, id: WRSVQH, title: type of session, width: ''}
-        - {data_key: half-sesh, expand: false, id: JJJXPT, title: 30-minute session, width: ''}
-        - {data_key: full-sesh, expand: false, id: OGOGUA, title: 60-minute session, width: ''}
-        foreground: ''
-        role: null
-        rows_per_page: 20
-        show_page_controls: false
-        spacing_above: small
-        spacing_below: small
-        tooltip: ''
-        visible: true
-      type: DataGrid
-    - layout_properties: {grid_position: 'IASELP,FPKXVA'}
-      name: spacer_2
-      properties: {height: 32}
-      type: Spacer
+    - layout_properties: {grid_position: 'PGEFFU,OPZALP'}
+      name: image_5
+      properties: {display_mode: zoom_to_fill, height: '300', source: _/theme/20251005_0048_New%20Video_simple_compose_01k6sb6fnyeq6v7w5e8gczjj3n.gif}
+      type: Image
     layout_properties: {full_width_row: true, grid_position: 'ALQSCF,DDHZHX'}
     name: card_5
-    properties: {background: 'theme:Neutral', border: '', col_spacing: medium, col_widths: '{"UZJVCC":40,"BBXVAV":10,"FPKXVA":10}', foreground: '', role: card, spacing_above: none, spacing_below: none, tooltip: '', visible: true, wrap_on: mobile}
+    properties: {background: 'theme:Neutral', border: '', col_spacing: medium, col_widths: '{"BBXVAV":10,"FPKXVA":10}', foreground: '', role: card, spacing_above: none, spacing_below: none, tooltip: '', visible: true, wrap_on: mobile}
     type: ColumnPanel
   layout_properties:
     col_widths: {}
