@@ -49,6 +49,50 @@ db_schema:
       type: string
     server: full
     title: Pricing
+  user_predictions:
+    client: none
+    columns:
+    - admin_ui: {order: 0, width: 200}
+      name: day_encoded
+      type: string
+    - admin_ui: {order: 1, width: 200}
+      name: bpm
+      type: number
+    - admin_ui: {order: 2, width: 200}
+      name: release_month
+      type: string
+    - admin_ui: {order: 3, width: 200}
+      name: artist_count
+      type: number
+    - admin_ui: {order: 4, width: 200}
+      name: danceability
+      type: number
+    - admin_ui: {order: 5, width: 200}
+      name: acousticness
+      type: number
+    - admin_ui: {order: 6, width: 200}
+      name: valence
+      type: number
+    - admin_ui: {order: 7, width: 200}
+      name: liveness
+      type: number
+    - admin_ui: {order: 8, width: 200}
+      name: energy
+      type: number
+    - admin_ui: {order: 9, width: 200}
+      name: instrumentalness
+      type: number
+    - admin_ui: {order: 10, width: 200}
+      name: speechiness
+      type: number
+    - admin_ui: {order: 11, width: 200}
+      name: predicted_streams
+      type: number
+    - admin_ui: {order: 12, width: 200}
+      name: created_at
+      type: datetime
+    server: full
+    title: user_predictions
 dependencies: []
 metadata: {logo_img: '', title: Streaming meets prediction.}
 name: SpotyCast
