@@ -7,6 +7,7 @@ from anvil.tables import app_tables
 import anvil.server
 from datetime import datetime
 import numpy as np, pandas as pd
+from anvil.files import data_files 
 import pickle
 
 @anvil.server.callable
@@ -45,9 +46,7 @@ FEATURES = [
   "liveness_%","energy_%","instrumentalness_%","danceability_%","speechiness_%","artist_count",
 ]
 
-
-
-with app_files.open("spoticast_rf_pipeline.pkl", "rb") as f:
+with data_files.open("_/theme/spoticast_rf_pipeline.pkl", "rb") as f:
   PIPE = pickle.load(f)
   
 def _f(x):
