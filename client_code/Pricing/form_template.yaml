@@ -140,7 +140,7 @@ components:
     - layout_properties: {grid_position: 'JRBMSY,QKPQBS'}
       name: day
       properties:
-        items: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]
+        items: []
       type: DropDown
     - layout_properties: {grid_position: 'SRATRI,UDSNUK'}
       name: label_3
@@ -165,7 +165,7 @@ components:
     - layout_properties: {grid_position: 'WHQSEL,ROUFGY'}
       name: month
       properties:
-        items: [January, February, March, April, May, June, July, August, September, October, November, December]
+        items: []
       type: DropDown
     - layout_properties: {grid_position: 'YTOZQQ,EHIFOW'}
       name: label_12

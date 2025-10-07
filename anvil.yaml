@@ -52,15 +52,9 @@ db_schema:
   user_predictions:
     client: none
     columns:
-    - admin_ui: {order: 0, width: 200}
-      name: day_encoded
-      type: string
     - admin_ui: {order: 1, width: 200}
       name: bpm
       type: number
-    - admin_ui: {order: 2, width: 200}
-      name: release_month
-      type: string
     - admin_ui: {order: 3, width: 200}
       name: artist_count
       type: number
@@ -93,6 +87,12 @@ db_schema:
       type: datetime
     - admin_ui: {order: 13, width: 200}
       name: year
+      type: number
+    - admin_ui: {order: 14, width: 200}
+      name: release_month
+      type: number
+    - admin_ui: {order: 15, width: 200}
+      name: day_encoded
       type: number
     server: full
     title: user_predictions

@@ -56,62 +56,78 @@ def save_prediction(data: dict):
 # ---------------------------
 # Inference
 # ---------------------------
+import joblib
+import numpy as np, pandas as pd
+from anvil.files import data_files
 
-# The model was trained on these feature names (aligned to your client code)
-FEATURES = [
-  'day_encoded', 'bpm', 'artist_count', 'year', 'release_month',
-  'danceability', 'acousticness', 'valence', 'liveness',
-  'energy', 'instrumentalness', 'speechiness'
-]
-
-# Load pipeline from Data Files (upload final_streams_random_forest_pipeline.joblib)
-# Avoid hardcoded theme path; use data_files[] instead.
+# Load pipeline from Data Files
 PIPE = joblib.load(data_files['final_streams_random_forest_pipeline.joblib'])
+
+# Map client keys -> model's training feature names
+CLIENT_TO_MODEL = {
+  "day_encoded":     "release_day",        # UI "day" -> training "release_day"
+  "bpm":             "bpm",
+  "artist_count":    "artist_count",
+  "year":            "release_year",       # UI "year" -> training "release_year"
+  "release_month":   "release_month",
+  "danceability":    "danceability_%",
+  "acousticness":    "acousticness_%",
+  "valence":         "valence_%",
+  "liveness":        "liveness_%",
+  "energy":          "energy_%",
+  "instrumentalness":"instrumentalness_%",
+  "speechiness":     "speechiness_%",
+}
+
+# Types: which features should be integers
+INT_FEATURES = {"release_day", "release_month", "release_year", "artist_count"}
 
 def _f(x):
   if x in ("", None): return np.nan
-  try:
-    return float(x)
-  except:
-    return np.nan
+  try: return float(x)
+  except: return np.nan
 
 def _i(x):
   if x in ("", None): return np.nan
-  try:
-    return int(x)
-  except:
-    return np.nan
+  try: return int(x)
+  except: return np.nan
 
 @anvil.server.callable
 def predict_stream_count(form_data: dict) -> int:
   """
-  Expects keys that match the FEATURES list above (same naming as client).
-  Coerces types; allows NaNs (pipeline imputer should handle them).
-  Returns a rounded int of expm1(pred) if your model predicts log(1+y).
-  If your model predicts raw counts, remove the expm1 step.
+  Accepts client keys; maps to training feature names; orders to match training.
   """
-  row = {
-    "day_encoded": _i(form_data.get("day_encoded")),
-    "bpm": _f(form_data.get("bpm")),
-    "artist_count": _i(form_data.get("artist_count")),
-    "year": _i(form_data.get("year")),
-    "release_month": _i(form_data.get("release_month")),
-    "danceability": _f(form_data.get("danceability")),
-    "acousticness": _f(form_data.get("acousticness")),
-    "valence": _f(form_data.get("valence")),
-    "liveness": _f(form_data.get("liveness")),
-    "energy": _f(form_data.get("energy")),
-    "instrumentalness": _f(form_data.get("instrumentalness")),
-    "speechiness": _f(form_data.get("speechiness")),
-  }
+  # Get exact training feature order if available
+  expected = list(getattr(PIPE, "feature_names_in_", []))
+  if not expected:
+    # Fallback to mapped names order
+    expected = list(CLIENT_TO_MODEL.values())
 
-  X = pd.DataFrame([row], columns=FEATURES)
+  # Convert client payload -> model-feature dict with proper types
+  tmp = {}
+  for client_key, model_key in CLIENT_TO_MODEL.items():
+    v = form_data.get(client_key)
+    if model_key in INT_FEATURES:
+      tmp[model_key] = _i(v)
+    else:
+      tmp[model_key] = _f(v)
+
+  # Ensure all expected features exist; fill any missing with NaN
+  row = {name: tmp.get(name, np.nan) for name in expected}
+
+  # Predict
+  X = pd.DataFrame([row], columns=expected)
   y_pred = PIPE.predict(X)[0]
 
-  # If the pipeline was trained on log1p(y), keep this. Otherwise, return int(round(y_pred)).
+  # If the model was trained on log1p(y), expm1; otherwise return raw
   try:
     y = float(np.expm1(y_pred))
   except Exception:
     y = float(y_pred)
 
   return int(round(y))
+
+# (Optional) Quick debug endpoint to see what the model expects:
+@anvil.server.callable
+def debug_expected_features():
+  return list(getattr(PIPE, "feature_names_in_", []))
