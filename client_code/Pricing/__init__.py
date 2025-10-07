@@ -37,6 +37,7 @@ class Pricing(PricingTemplate):
         "bpm": float(self.bpm.text),
         #"release_month": self.month.selected_value,
         "artist_count": int(self.artist_count.text),
+        "year": int(self.year.text),
         "danceability": float(self.danceability.text),        # keys match server
         "acousticness": float(self.acousticness.text),
         "valence": float(self.valence.text),

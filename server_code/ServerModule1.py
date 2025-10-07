@@ -27,6 +27,7 @@ def save_prediction(data):
   row = app_tables.user_predictions.add_row(
     day_encoded=data.get("day_encoded"),
     bpm=f(data.get("bpm")),
+    year = f(data.get("year")),
     release_month=data.get("release_month"),
     artist_count=i(data.get("artist_count")),
     danceability=f(data.get("danceability")),       # no % in the column name
@@ -42,8 +43,9 @@ def save_prediction(data):
 
 # Must match training feature names exactly
 FEATURES = [
-  "day_encoded","acousticness_%","bpm","valence_%","release_month",
-  "liveness_%","energy_%","instrumentalness_%","danceability_%","speechiness_%","artist_count",
+  'day_encoded','acousticness_%','release_day','bpm','valence_%','release_month',
+  'liveness_%','energy_%','instrumentalness_%','danceability_%','speechiness_%',
+  'artist_count','release_year',
 ]
 
 with data_files.open("_/theme/spoticast_rf_pipeline.pkl", "rb") as f:
@@ -67,6 +69,7 @@ def predict_stream_count(form_data: dict) -> int:
     "day_encoded": _i(form_data.get("day_encoded")),
     "acousticness_%": _f(form_data.get("acousticness_%")),
     "bpm": _f(form_data.get("bpm")),
+    "year": _f(form_data.get("year")),
     "valence_%": _f(form_data.get("valence_%")),
     "release_month": _i(form_data.get("release_month")),
     "liveness_%": _f(form_data.get("liveness_%")),
