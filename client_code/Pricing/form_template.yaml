@@ -150,6 +150,14 @@ components:
       name: bpm
       properties: {placeholder: '120'}
       type: TextBox
+    - layout_properties: {grid_position: 'NCVQSH,ZBKFMY'}
+      name: label_22
+      properties: {text: Choose the year when you will stream track}
+      type: Label
+    - layout_properties: {grid_position: 'TCHVHZ,DVWPLD'}
+      name: year
+      properties: {}
+      type: TextBox
     - layout_properties: {grid_position: 'QLHHJO,KISKOG'}
       name: label_11
       properties: {text: Choose the month when you will stream track}
