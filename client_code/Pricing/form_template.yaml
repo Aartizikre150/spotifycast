@@ -247,7 +247,7 @@ components:
       type: Label
     - layout_properties: {grid_position: 'UYMYFB,ZKNAVR'}
       name: diclaimer
-      properties: {text: 'Disclaimer: This prediction is generated using a regression-based machine learning model with approximately 92% accuracy and an R² value of 0.87. Actual stream counts may vary.', visible: false}
+      properties: {text: 'Disclaimer: This prediction is generated using a regression-based machine learning model with approximately 85% accuracy and an R² value of 0.58. Actual stream counts may vary.', visible: false}
       type: Label
     layout_properties: {grid_position: 'WQEJOQ,SWBWQL'}
     name: card_8
