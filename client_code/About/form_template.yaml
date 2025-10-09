@@ -24,6 +24,10 @@ components:
     name: label_13
     properties: {align: left, background: '', bold: true, border: '', font: '', font_size: 18, foreground: 'theme:Primary 500', icon: '', icon_align: left, italic: true, role: null, spacing_above: small, spacing_below: none, text: I am explorers., tooltip: '', underline: false, visible: true}
     type: Label
+  - layout_properties: {grid_position: 'RZRLXU,BTRUHL LXBJMS,XYVFDP'}
+    name: headline_1
+    properties: {role: headline, text: Test}
+    type: Label
   - layout_properties: {grid_position: 'RZRLXU,BTRUHL ZSUMXK,GNAVIP'}
     name: label_2
     properties: {align: left, background: '', bold: false, border: '', font: '', font_size: 16, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: none, spacing_below: small, text: 'My journey into data started with curiosity about how small details can reveal big patterns. Over time, I discovered that data is not just about numbers but about understanding people, behaviors, and the stories hidden within information. This curiosity continues to inspire me to explore how data shapes the world around us.', tooltip: '', underline: false, visible: true}
